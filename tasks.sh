@@ -3,7 +3,7 @@
 aa2# This script performs the subtraction#!/bin/bash
 
 # Define numbers (replace with environment variables if needed)
-num1=29
+num1=39
 num2=1
 num3=5
 
