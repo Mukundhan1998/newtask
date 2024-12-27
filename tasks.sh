@@ -1,18 +1,17 @@
 #!/bin/bash
 
-# Prompt the user for two numbers
-echo "Enter the first number:"
-read num1
+aa2# This script performs the subtraction#!/bin/bash
 
-echo "Enter the second number:"
-read num2
+# Define numbers (replace with environment variables if needed)
+num1=5
+num2=10
+num3=15
 
-echo "enter the third number"
-read num3
-
-# Perform subtraction
-result=$((num1 - num2 + num3))
+# Perform the operation
+result=$((num1 + num2 - num3))
+echo "The result of $num1 + $num2 - $num3 is: $result" > result.txt
 
 # Display the result
-echo "The result of $num1 - $num2 is: $result"
+cat result.txt
+
 
